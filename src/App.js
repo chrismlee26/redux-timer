@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import { createStore } from 'redux';
 import { Provider } from 'react-redux';
@@ -9,7 +8,7 @@ const store = createStore(reducers);
 function App() {
   return (
     <Provider store={store}>
-      <h1>TMRZ</h1>
+      <h1>timers app</h1>
     </Provider>
   );
 }
