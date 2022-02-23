@@ -9,7 +9,6 @@ export default function ListTimers() {
   return (
     <div>
       {timers.map((timer, i) => {
-        // Here the render method maps `this.props.timers` to:
         return (
           <TimerView
             key={`timer-${i}`}
